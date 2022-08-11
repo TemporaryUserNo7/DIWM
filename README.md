@@ -2,11 +2,13 @@
 Code for the paper entitled "Data-Independent Black-Box Watermark and Unforgeable Ownership Proof for Deep Neural Networks"
 
 ## Preparation
-To train baseline models, you can use the original steps from Data-Free Adversarial Distillation, Gongfan Fang, Jie Song, Chengchao Shen, Xinchao Wang, Da Chen, Mingli Song.
+Incorporate baseline models them directly into /checkpoint/teacher.
 
-Or incorporate them directly into /checkpoint/teacher.
+To generate anchors, refer to the instruction in https://github.com/VainF/Data-Free-Adversarial-Distillation. 
 
-To run DFD, follow the instruction in https://github.com/VainF/Data-Free-Adversarial-Distillation, results are saved in /checkpoint/student .
+Notice that you should adopt a different auxiliary backbone. 
+
+Results are saved in /checkpoint/student .
 
 ## Running DIWM
 Execute KFWM_XX for the respective task. 
